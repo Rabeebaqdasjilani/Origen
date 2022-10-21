@@ -1,0 +1,83 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  /* CSS Here */
+  .home-header .custom-input {
+    width: 400px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  /* CSS Here */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  /* CSS Here */
+  .logo img {
+    width: 200px;
+  }
+  .home-header .custom-input {
+    width: 280px;
+  }
+  .bar-chart {
+    height: 500px !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  /* CSS Here */
+  .table > :not(caption) > * > * {
+    border-bottom: 0px;
+  }
+  .nav-bar {
+    flex-wrap: wrap;
+  }
+  .custom-box {
+    width: 100%;
+    color: grey;
+    margin-top: 20px;
+    margin-right: 0;
+  }
+  header {
+    padding: 15px 15px 0px;
+  }
+  .table td {
+    border-bottom-width: transparent !important;
+  }
+  .t-head {
+    display: none;
+  }
+  .custom-table tr {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 3px solid #f1f1ff;
+    padding: 10px;
+  }
+  .custom-table td {
+    width: 100%;
+  }
+  .mobile-td-heading {
+    display: inline-flex !important;
+    color: #8fa8bd;
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 425px) {
+  /* CSS Here */
+  .logo img {
+    width: 150px;
+  }
+  .form-check-label {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .custom-table tr {
+    font-size: 12px;
+  }
+}
